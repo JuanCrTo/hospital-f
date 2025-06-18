@@ -8,10 +8,10 @@ export interface IPatient extends ITimestamps {
   lastname: string;
   secondlastname: string;
   birth: string;
-  location?: string;
-  latitude?: number;
-  longitude?: number;
-  locationHistory?: {
+  location: string;
+  latitude: number;
+  longitude: number;
+  locationHistory: {
     location: string;
     latitude: number;
     longitude: number;
